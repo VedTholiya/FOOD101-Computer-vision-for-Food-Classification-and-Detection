@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Data and Models (these should not be version controlled)
+data/
+*.pth
+*.pt
+
+# Results and logs
+detection_results/
+inference_results/
+food_detection_project/
+runs/
+
+# IDE specific
+.idea/
+.vscode/
